@@ -112,7 +112,7 @@
 &kp ESCAPE      &trans          &kp UP_ARROW    &trans           &trans                       &kp SLASH     &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
 &kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp LEFT_SHIFT  &trans          &trans          &trans           &trans   &trans      &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans          &trans          &trans          &trans           &trans   &trans      &to 0   &kp NUMBER_0                                            &kp ENTER
+&trans          &kp LEFT_WIN    &trans          &trans           &trans   &trans      &to 0   &kp NUMBER_0                                            &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
