@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &kp I     &kp O     &kp P
-&kp A           &kp S         &kp D         &kp F                        &kp G        &kp ESCAPE                         &kp AT_SIGN    &kp H        &kp J  &kp K     &kp L     &kp BACKSPACE
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C                        &kp V        &kp B                              &kp SEMICOLON  &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 2 SPACE
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp ENTER
+&kp Q           &kp W         &kp E         &kp R                        &kp T                                                          &kp Y   &kp U  &kp I     &kp O     &kp P
+&kp A           &kp S         &kp D         &kp F                        &kp G        &kp ESCAPE                         &kp AT_SIGN    &kp H   &kp J  &kp K     &kp L     &kp BACKSPACE
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C                        &kp V        &kp B                              &kp SEMICOLON  &kp N   &kp M  &mkp MB1  &mkp MB2  &lt 2 SPACE
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &to 3          &trans                             &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &trans          &kp UP_ARROW    &trans           &trans                       &kp SLASH     &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
+&kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp LEFT_SHIFT  &trans          &trans          &trans           &trans   &trans      &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&trans          &trans          &trans          &trans           &trans   &trans      &to 0   &kp NUMBER_0                                            &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
