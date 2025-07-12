@@ -93,7 +93,9 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans  &kp LA(GRAVE)      &trans       &kp BACKSPACE                                 &to 3
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
+            sensor-bindings =
+                <&inc_dec_kp PG_UP PAGE_DOWN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
