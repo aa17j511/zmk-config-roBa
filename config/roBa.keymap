@@ -99,7 +99,7 @@
         FUNCTION {
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(SQT)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                                &kp LS(N9)      &kp LS(NUMBER_0)  &kp LA(EQUAL)      &kp LS(NUMBER_6)    &kp BACKSLASH
-&trans            &trans       &trans            &trans            &trans            &trans      &kp LS(NUMBER_7)  &kp SQT         &kp SEMICOLON     &kp LS(SEMICOLON)  &kp LS(NUMBER_8)    &trans
+&kp PIPE          &trans       &trans            &trans            &trans            &none       &kp LS(NUMBER_7)  &kp SQT         &kp SEMICOLON     &kp LS(SEMICOLON)  &kp LS(NUMBER_8)    &trans
 &trans            &trans       &trans            &trans            &trans            &trans      &kp LS(COMMA)     &kp LS(PERIOD)  &kp SLASH         &kp LS(SLASH)      &kp LS(UNDERSCORE)  &trans
 &trans            &trans       &trans            &trans            &trans            &trans      &trans            &trans                                                                   &trans
             >;
