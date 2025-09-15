@@ -93,7 +93,7 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 3  &kp SPACE  &kp LC(SPACE)      &kp TAB    &kp ENTER                                   &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
