@@ -92,8 +92,6 @@
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C  &kp V      &kp B              &kp N      &kp M      &mkp MB1  &mkp MB2  &kp AT_SIGN  &lt 1 RIGHT_SHIFT
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 3  &kp SPACE  &kp LC(SPACE)      &kp TAB    &kp ENTER                                   &kp ESCAPE
             >;
-
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         FUNCTION {
@@ -112,8 +110,6 @@
 &trans        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp EQUAL      &trans          &trans          &mkp MB1         &mkp MB2  &trans  &trans
 &trans        &trans           &trans           &trans           &kp LA(GRAVE)    &kp SPACE      &kp TAB         &kp ENTER                                          &to 0
             >;
-
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         ARROW {
