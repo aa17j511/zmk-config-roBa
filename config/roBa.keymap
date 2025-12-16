@@ -86,7 +86,7 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp COMMA  &kp SPACE  &lt 3 LC(SPACE)      &kp TAB    &kp ENTER                                  &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
