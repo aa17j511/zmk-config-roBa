@@ -86,7 +86,7 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp COMMA  &kp SPACE  &lt 3 LC(SPACE)      &kp TAB    &kp ENTER                                  &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         FUNCTION {
@@ -114,8 +114,6 @@
 &kp LEFT_SHIFT    &trans          &trans          &trans           &trans  &trans      &kp ASTERISK  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
 &kp LEFT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans           &trans  &trans      &kp TAB       &kp ENTER                                                           &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
